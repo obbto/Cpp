@@ -3,7 +3,7 @@
 using namespace std;
 int main(){
 	Dog gou(2,10);
-	cout << "??=" << gou.readAge()<<endl;
-	cout << "??=" << gou.readWeight() << endl;
+	cout << "狗龄=" << gou.readAge()<<endl;
+	cout << "狗重=" << gou.readWeight() << endl;
 	return 0;
 }
